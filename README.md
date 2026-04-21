@@ -173,7 +173,6 @@ Engineering seminar project developed as a team project.
 
 This repository currently focuses on the backend foundation of the system. Frontend and authentication modules are planned as next stages of development.
 
-```md
 ## Architecture diagram
 
 ```mermaid
