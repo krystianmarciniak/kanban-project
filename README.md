@@ -187,7 +187,8 @@ flowchart LR
 
     T --> D
     P --> D
-  ```
+```
+
 ## Architecture diagram description
 
 The system uses a classic client-server architecture:
