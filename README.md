@@ -27,7 +27,21 @@ Current backend implementation includes a REST API built in Laravel, PostgreSQL 
 - PostgreSQL
 
 ### Frontend
-- React *(planned / in progress)*
+
+The frontend module is currently being developed in React.
+
+Implemented / in progress:
+- basic React project setup with Vite
+- Kanban board layout with 3 columns: To Do / In Progress / Done
+- task rendering based on mock data
+- task creation form
+- local task status change in the UI
+
+Planned next:
+- connect React frontend with Laravel REST API
+- replace mock data with backend data
+- improve UI and responsive layout
+- implement drag & drop in the Kanban board
 
 ### Authentication
 - Auth0 *(planned / in progress)*
@@ -121,6 +135,32 @@ backend/
 ├── routes/
 │   └── api.php
 ```
+
+## How to run frontend locally
+
+#### 1. Go to frontend folder
+```bash
+cd frontend
+```
+
+#### 2. Install dependencies
+```bash
+npm install
+```
+
+#### 3. Start development server
+```bash
+npm run dev
+```
+
+#### 4. Open the application in browser
+Vite will display the local development URL in the terminal, usually:
+```txt
+http://localhost:5173
+```
+
+
+
 ## How to run backend locally
 
 #### 1. Clone repository
